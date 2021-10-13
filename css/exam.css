@@ -1,0 +1,224 @@
+.main-color{
+    color: #e05a5b;
+}
+/* -----------------home-------------------------------------- */
+.carousel-inner .image1{
+    background-image: url(../images/slideshow-1.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+}
+.carousel-inner .image2{
+    background-image: url(../images/slideshow-2.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+}
+.carousel-inner .image3{
+    background-image: url(../images/slideshow-3.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+}
+.caption h2{
+    font-size: 50;
+}
+.navbar-nav .nav-link.active{
+    color: #e05a5b !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #e05a5b !important;
+}
+.nn{
+    /* background-color: aqua; */
+    width:35 ;
+    height: 35 ;
+    margin-top: 300;
+    border: white 1px solid;
+    left: 0;
+}
+.pp{
+    /* background-color: aqua; */
+    width:35 ;
+    height: 35 ;
+    margin-top: 264.5;
+    border: white 1px solid;
+    left: 0;
+
+}
+/* .border{
+    border: wheat 1px solid;
+} */
+/* --------------about---------------------------------------- */
+.hh2{
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    z-index: 1;
+    
+}
+.range1{
+    width: 80%;
+}
+.range2{
+    width: 95%;
+}
+.range3{
+    width: 85%;
+}
+.range4{
+    width: 70%;
+}
+.hh h3{
+    text-align: center;
+    z-index: 98;
+    font-size: 80;
+    color:rgb(214, 209, 209); 
+}
+.line{
+    margin: auto;
+    width: 3.5%;
+    height: 2;
+    background-color: #212529;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    margin-top: 15;
+    margin-bottom: 15;
+}
+.about-head:hover .line{
+    width: 5%;
+}
+.about-words p{
+    font-size: 16;
+}
+.progress{
+    height: 10;
+}
+.progress-bar{
+    background-color:#e05a5b ;
+}
+/* ---------------------team-------------------------------- */
+.layer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(224, 90, 91,0.7);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.team-img img{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.team-img {
+    overflow: hidden;
+}
+.team-img:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.layer i{
+    color: white;
+}
+.team-img:hover .layer {
+    opacity: 1;
+    
+}
+.team-info h6{
+    color: black;
+}
+.team-info:hover h6{
+    color:#e05a5b  ;
+}
+/* --------------------service------------------------- */
+.row{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.serv-item i{
+    color:#e05a5b  ;
+}
+.serv-info h5{
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.serv-info h5:hover {
+    color:#e05a5b ;
+}
+/* --------------client------------------------------------------ */
+.client-image{
+    width: 50;
+    height: 50;
+}
+.caro{
+    width: 10%;
+}
+.caro1{
+    width: 10%;
+    left: 50%;
+    transform: translatex(50%);
+    -webkit-transform: translatex(50%);
+    -moz-transform: translatex(50%);
+    -ms-transform: translatex(50%);
+    -o-transform: translatex(50%);
+}
+.caro2{
+    width: 10%;
+    left: 30%;
+    transform: translatex(50%);
+    -webkit-transform: translatex(50%);
+    -moz-transform: translatex(50%);
+    -ms-transform: translatex(50%);
+    -o-transform: translatex(50%);
+}
+.carousel-item{
+    visibility: visible;
+}
+/* -----------touch--------------------------------------------- */
+.contact-item i{
+    color: #e05a5b;
+}
+/* --------------footer------------------- */
+.footer{
+    background-color: rgb(34, 34, 34);
+}
+.fonts i:hover{
+    color: #e05a5b;
+}
+.setting{
+    width: 30;
+    padding-top: 5;
+    padding-bottom: 5;
+    height: fit-content;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 25%;
+    z-index: 99999;
+}
